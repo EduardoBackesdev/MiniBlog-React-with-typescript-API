@@ -1,0 +1,44 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+form h2{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+form input{
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+textarea{
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 100px;
+    padding-left: 10px;
+    resize: none;
+    padding-top: 10px;
+}
+
+#submit{
+    margin-top: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(79, 223, 79);
+}
